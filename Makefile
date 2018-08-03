@@ -3,3 +3,5 @@ build:
 	jbuilder build bin/$(EXECUTABLE)
 exec:
 	jbuilder exec bin/$(EXECUTABLE)
+repl:
+	jbuilder utop lib
